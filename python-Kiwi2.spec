@@ -7,7 +7,6 @@ Release:       %mkrel 2
 Source:        %{oname}-%{version}.tar.bz2
 License:       LGPL
 Group:         Development/Python
-BuildRoot:     %{_tmppath}/%{name}-buildroot
 Url:           http://www.async.com.br/projects/kiwi
 BuildRequires: python-devel
 Requires:      pygtk2.0
