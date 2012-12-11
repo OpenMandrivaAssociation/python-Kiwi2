@@ -84,3 +84,39 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/gazpacho/catalogs/pixmaps/kiwi*.png
 
 
+
+
+%changelog
+* Tue Sep 15 2009 Thierry Vignaud <tv@mandriva.org> 1.9.0-7mdv2010.0
++ Revision: 442230
+- rebuild
+
+* Sat Jan 03 2009 Funda Wang <fwang@mandriva.org> 1.9.0-6mdv2009.1
++ Revision: 323529
+- rebuild
+
+* Fri Aug 01 2008 Thierry Vignaud <tv@mandriva.org> 1.9.0-5mdv2009.0
++ Revision: 259653
+- rebuild
+
+* Fri Jul 25 2008 Thierry Vignaud <tv@mandriva.org> 1.9.0-4mdv2009.0
++ Revision: 247498
+- rebuild
+
+* Fri Dec 21 2007 Olivier Blin <oblin@mandriva.com> 1.9.0-2mdv2008.1
++ Revision: 136450
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Wed Jan 31 2007 Nicolas Lécureuil <neoclust@mandriva.org> 1.9.0-2mdv2007.0
++ Revision: 115771
+- Rebuild against new python
+- Import python-Kiwi2
+
+* Sun Jul 03 2005 Michael Scherer <misc@mandriva.org> 1.9.0-1mdk
+- from Tigrux <tigrux@ximian.com>
+  - First rpm for Mandriva Linux.
+
