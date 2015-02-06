@@ -3,7 +3,7 @@
 Summary:       A Framework for developing graphical applications in Python
 Name:          python-%{oname}
 Version:       1.9.0
-Release:       %mkrel 7
+Release:       8
 Source:        %{oname}-%{version}.tar.bz2
 License:       LGPL
 Group:         Development/Python
